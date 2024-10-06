@@ -1,5 +1,6 @@
 """
     libraries definiton
+    The list of libraries needed to the project
 """
 from fastapi import FastAPI, Request, Response, Cookie, HTTPException, Depends, WebSocket
 from fastapi.templating import Jinja2Templates
